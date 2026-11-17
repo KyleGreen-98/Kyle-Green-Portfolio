@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');:root{--bg:#111117;--panel:#1b1a23;--text:#f1ebe7;--muted:#b5acb7;--accent:#ad8bc5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 'DM Sans',Arial,sans-serif}a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}.nav{height:78px;padding:0 clamp(22px,5vw,90px);display:flex;justify-content:space-between;align-items:center;position:absolute;z-index:5;width:100%;border-bottom:1px solid #ffffff22}.brand{font-size:15px;font-weight:700;letter-spacing:.18em}.brand-dot,.accent{color:var(--accent)}nav{display:flex;gap:clamp(14px,3vw,42px)}nav a,.eyebrow,.meta,.art-caption,.text-link,.hero-foot,.link-button,footer{font-size:11px;letter-spacing:.18em;font-weight:700}nav a:hover,.text-link:hover{color:var(--accent)}.hero{min-height:92vh;position:relative;overflow:hidden;display:flex;align-items:center;padding:150px clamp(24px,9vw,150px) 120px;background:radial-gradient(ellipse at 73% 52%,#55455d 0%,#292a3d 24%,#15151f 54%,#101017 80%)}.hero-scene{position:absolute;inset:0;opacity:.75;background:linear-gradient(180deg,transparent 60%,#0c0d13 100%),repeating-linear-gradient(110deg,transparent 0 110px,#ffffff06 111px 112px)}.glow{position:absolute;width:50vw;height:50vw;max-width:650px;max-height:650px;right:4%;top:8%;border-radius:50%;background:radial-gradient(circle,#b7a0c83a,transparent 65%);filter:blur(30px)}.road{position:absolute;right:3%;bottom:-32%;height:90%;width:40%;transform:perspective(550px) rotateX(55deg);background:linear-gradient(90deg,transparent 47%,#b9a5bc50 49%,transparent 51%),linear-gradient(90deg,transparent,#222431 35%,#282734 70%,transparent);clip-path:polygon(42% 0,58% 0,100% 100%,0 100%)}.hero-content{position:relative;max-width:800px}.eyebrow{color:var(--accent);margin:0 0 24px}.hero h1,h2,h3,.statement blockquote{font-family:'Playfair Display',Georgia,serif;font-weight:400;line-height:1.09}.hero h1{font-size:clamp(57px,8vw,120px);letter-spacing:-.045em;margin:0 0 30px}.hero h1 em,h2 em{font-weight:400;color:#c7b4d0}.lead{max-width:500px;font-size:clamp(17px,1.6vw,21px);color:#d5cdd6;margin-bottom:38px}.link-button{display:inline-flex;gap:28px;border:1px solid #b8a5bd;padding:17px 22px;transition:background .2s}.link-button:hover{background:#ffffff1a}.hero-foot{position:absolute;bottom:30px;left:clamp(24px,9vw,150px);right:clamp(24px,9vw,150px);display:flex;justify-content:space-between;color:#b6adbb}.section{max-width:1380px;margin:auto;padding:120px clamp(24px,7vw,110px)}.section-head{max-width:650px;margin-bottom:62px}.section-head p:last-child{color:var(--muted)}h2{font-size:clamp(46px,6vw,85px);letter-spacing:-.035em;margin:0 0 26px}.feature{display:grid;grid-template-columns:1.25fr 1fr;background:var(--panel);margin-bottom:60px}.art{min-height:350px;position:relative;overflow:hidden}.art-caption{position:absolute;bottom:18px;left:20px;color:#ffffffb3;font-size:9px}.art-hotel{background:radial-gradient(ellipse at 50% 45%,#bda78b60,transparent 40%),linear-gradient(90deg,#101017 0 15%,#39323b 16% 18%,#17161d 20% 80%,#39323b 82% 84%,#101017 85%),linear-gradient(#433d44,#101017)}.hotel-door{position:absolute;left:39%;top:17%;width:22%;height:78%;border:8px solid #62535a;background:linear-gradient(90deg,#1b1a21,#4b4145,#1b1a21);box-shadow:0 0 100px #d1ad7940}.hotel-lamps:before,.hotel-lamps:after{content:'';position:absolute;top:26%;width:11px;height:35px;background:#e7bd85;box-shadow:0 0 35px 14px #dfb06b66}.hotel-lamps:before{left:23%}.hotel-lamps:after{right:23%}.project-info{padding:clamp(30px,5vw,80px);display:flex;flex-direction:column;justify-content:center}.project-info h3{font-size:clamp(40px,4vw,65px);margin:0 0 15px}.meta{color:#b6a4c2;line-height:1.7}.project-info>p:not(.eyebrow):not(.meta),.project p:not(.eyebrow){color:var(--muted)}.text-link{display:inline-block;margin-top:20px;color:#d5b9e5}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:70px 35px}.project .art{min-height:250px;margin-bottom:27px}.project h3{font-size:clamp(32px,3.5vw,50px);margin:0 0 10px}.art-winter{background:linear-gradient(180deg,#3d5268 0%,#a3b1bd 54%,#d6d9d7 55%,#546171 100%)}.art-winter:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(100deg,transparent 0 40px,#182d3980 41px 47px,transparent 48px 75px);clip-path:polygon(0 5%,100% 0,100% 85%,0 90%)}.art-echoes{background:radial-gradient(circle at 76% 18%,#f7d8a2 0 8%,transparent 20%),linear-gradient(180deg,#8faeaa,#b8c6a0 55%,#415d50 56%,#273d3c)}.art-echoes:after{content:'';position:absolute;bottom:0;left:10%;width:80%;height:55%;border:16px solid #5c6e62;border-bottom:0;border-radius:55% 55% 0 0;opacity:.7}.art-route{background:linear-gradient(180deg,#b06f6b,#d6aa8d 50%,#443b49 51%,#1e1c2c)}.art-route:after{content:'';position:absolute;bottom:0;left:26%;width:48%;height:57%;background:linear-gradient(90deg,#3a3340,#75646b,#3a3340);clip-path:polygon(45% 0,55% 0,100% 100%,0 100%)}.art-canvas{background:radial-gradient(circle at 60% 50%,#806a9a,#292335 45%,#16141e 85%)}.art-canvas:after{content:'BEYOND THE CANVAS';position:absolute;top:42%;left:8%;right:8%;text-align:center;letter-spacing:.25em;font-size:clamp(12px,2vw,24px);color:#eee2f0}.statement{text-align:center;padding:120px 24px;background:#201c29}.statement blockquote{font-size:clamp(30px,4vw,60px);max-width:900px;margin:0 auto 20px}.statement>p:last-child{font-size:12px;color:var(--muted)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;color:#c9c1cb;font-size:18px}.contact{min-height:530px}.contact>p:not(.eyebrow){color:var(--muted);max-width:500px}.fineprint{font-size:12px;margin-top:35px}footer{padding:28px clamp(24px,7vw,110px);display:flex;justify-content:space-between;gap:15px;border-top:1px solid #ffffff24;color:#aaa0ae}.detail-hero{padding:170px clamp(24px,9vw,150px) 90px;background:linear-gradient(140deg,#292332,#111117);min-height:55vh}.detail-hero h1{font:400 clamp(58px,9vw,110px)/1.1 'Playfair Display',Georgia,serif;margin:0 0 20px}.detail-hero .lead{max-width:760px}.detail-body{max-width:940px;margin:auto;padding:85px 24px 140px}.detail-body h2{font-size:42px;margin-top:55px}.detail-body p,.detail-body li{color:#c9c1cb}.detail-body .notice{border-left:2px solid var(--accent);padding:15px 22px;background:#ffffff08}.sample{background:#201e28;padding:28px;margin:30px 0;border-radius:2px}.sample p{margin:0}.back{display:inline-block;margin-top:30px;color:#d5b9e5}@media(max-width:760px){.nav{height:70px}.nav nav{gap:13px}nav a{font-size:9px}.hero{min-height:760px}.hero-foot{font-size:9px}.feature,.project-grid,.about-grid{grid-template-columns:1fr}.feature .art{min-height:300px}.project-grid{gap:50px}.section{padding-top:80px;padding-bottom:80px}.statement{padding:80px 24px}footer{flex-wrap:wrap;font-size:9px}}
+/* The Cornerstone — cinematic photo treatment */
+.art-hotel {
+  position: relative;
+  overflow: hidden;
+}
+
+.art-hotel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 12, 18, 0.15),
+    rgba(12, 12, 18, 0.45)
+  );
+  pointer-events: none;
+}
+
+/* The Cornerstone — corridor showcase */
+
+.cornerstone-photo {
+  margin: 48px auto;
+  max-width: 1200px;
+}
+
+.cornerstone-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: cover;
+  filter: brightness(0.78);
+}
+
+.cornerstone-photo figcaption {
+  margin-top: 12px;
+  color: #a7a0a5;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Screenplay writing samples */
+
+.script-sample {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9;
+  color: #e8dfd4;
+  margin-top: 24px;
+}
+
+/* WINTER-BORN — atmospheric treatment */
+
+body:has(.winter-born-page) {
+  background: #10151b;
+  color: #d7d9d4;
+}
+
+.winter-born-page .detail-hero {
+  background: linear-gradient(
+    135deg,
+    #10151b 0%,
+    #303c48 65%,
+    #171c22 100%
+  );
+}
+
+.winter-born-page .eyebrow {
+  color: #91a9c9;
+}
+
+.winter-born-page h1 {
+  color: #e3e8ed;
+  text-shadow: 0 4px 30px rgba(82,108,159,0.2);
+}
+
+.winter-born-page .lead {
+  color: #c3cbd3;
+}
+
+/* Winter-Born forest photograph */
+
+.winter-born-photo {
+  max-width: 1200px;
+  margin: 48px auto;
+}
+
+.winter-born-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  filter: brightness(0.75) saturate(0.8);
+}
+
+.winter-born-photo figcaption {
+  margin-top: 12px;
+  color: #91a9c9;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* Keep homepage project photographs consistent */
+.project-grid .art {
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-grid .art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Remove the original Route 66 illustration */
+.art-route::before,
+.art-route::after {
+  content: none !important;
+}
+
+/* Route 66 project photography */
+
+.route-photo {
+  margin: 24px 0 36px;
+}
+
+.route-photo img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.route-photo figcaption,
+.route-gallery figcaption {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #b9aeb8;
+}
+
+.route-gallery-section {
+  margin: 36px 0;
+}
+
+.route-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.route-gallery figure {
+  margin: 0;
+}
+
+.route-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .route-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Route 66 screenplay formatting */
+
+.screenplay-sample {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #f1ece5;
+}
+
+.screenplay-sample p {
+  margin: 0 0 16px;
+}
+
+.screenplay-sample .scene-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 26px;
+  margin-bottom: 12px;
+}
+
+.screenplay-sample .transition {
+  font-weight: bold;
+  text-align: right;
+  margin: 24px 0;
+}
+/* Remove the old decorative arch from Echoes From Ashes */
+.art-echoes::after {
+  display: none;
+}
